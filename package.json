@@ -1,0 +1,30 @@
+{
+  "name": "weirdlang",
+  "version": "0.1.0",
+  "description": "Traductor de idioma",
+  "main": "dist/src/weirdlang.js",
+  "scripts": {
+    "build": "babel src/weirdlang.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmiloangel/weirdlang.git"
+  },
+  "keywords": [
+    "traductor",
+    "idioma",
+    "js"
+  ],
+  "author": "Juan Angel <kmiloangel@gmail.com> (https://twitter.com/kmiloangel3)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kmiloangel/weirdlang/issues"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
